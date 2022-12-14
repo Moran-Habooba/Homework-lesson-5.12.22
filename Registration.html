@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="index.html">דף הבית</a>
+    <br />
+    <br />
+    <img
+      src="data:image/png;base64,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"
+      alt="logo"
+    />
+    <br /><br /><br />
+    <fieldset style="background-color: darkgreen">
+      <h2>טופס הרשמה לחוגים</h2>
+    </fieldset>
+    <ol>
+      <form method="post" action="https://formspree.io/f/meqdyyrw">
+        <li>
+          <label for="name-of-school">שם בי"ס/גן</label>
+          <input
+            type="text"
+            id="name-of-school"
+            name="name-of-school"
+            checked
+          />
+          <br />
+          <br />
+        </li>
+
+        <li>
+          <label for="age-class">עולה לכיתה/גן:</label>
+          <label for="age-class">טרום טרום חובה</label>
+          <input type="radio" id="age1" name="age-class" />
+          <label for="age-class">טרום חובה</label>
+          <input type="radio" id="age2" name="age-class" />
+          <label for="age-class">חובה</label>
+          <input type="radio" id="age3" name="age-class" />
+          <label for="age-class">א</label>
+          <input type="radio" id="age4" name="age-class" />
+          <label for="age-class">ב</label>
+          <input type="radio" id="age5" name="age-class" />
+          <label for="age-class">ג</label>
+          <input type="radio" id="age5" name="age-class" />
+          <label for="age-class">ומעלה</label>
+          <input type="radio" id="age5" name="age-class" />
+        </li>
+        <br /><br />
+        <li>
+          <label for="name-and-last-name">שם ושם משפחה של הילד/ה</label>
+          <input
+            type="text"
+            id="name-and-last-name"
+            name="name-and-last-name"
+          />
+        </li>
+        <br /><br />
+        <li>
+          <label for="id">תעודת זהות של הילד/ה</label>
+          <input type="number" id="id" name="id" />
+        </li>
+        <br /><br />
+        <li>
+          <label for="date">תאריך לידה של הילד/ה</label>
+          <input type="date" id="date" name="date" />
+        </li>
+        <br /><br />
+        <li>
+          <label for="gender">מין הילד/ה</label>
+          <label for="gender">זכר</label>
+          <input type="radio" id="gender" name="gender" checked />
+          <label for="gender">נקבה</label>
+          <input type="radio" id="gender" name="gender" />
+        </li>
+        <br /><br />
+        <li>
+          <label for="school-name">שם בית הספר/גן </label>
+          <select name="school-name" id="school-name">
+            <option value="אורנים">אורנים</option>
+            <option value="גורדון">גורדון</option>
+            <option value="אמיר">אמיר</option>
+            <option value="יסודות">יסודות</option>
+            <option value="הס">הס</option>
+          </select>
+        </li>
+        <br /><br />
+        <li>
+          <label for="parent-name">שם ההורה</label>
+          <input type="text" id="parent-name" name="parent-name" />
+        </li>
+        <br /><br />
+        <li>
+          <label for="number">נייד ההורה</label>
+          <input type="number" id="number" name="number" />
+        </li>
+        <br /><br />
+        <li>
+          <label for="email">דואר אלקטרוני</label>
+          <input type="text" id="email" name="email" />
+        </li>
+        <br /><br />
+        <li>
+          <label for="health">מגבלות רפואיות</label>
+          <br />
+          <label for="health1">לילדי יש מגבלות רפואיות /רגישות למזון</label>
+          <input type="radio" id="health1" name="health" checked />
+          <label for="health2">לילדי אין מגבלויות רפואיות </label>
+          <input type="radio" id="health2" name="health" />
+        </li>
+        <br />
+        <label for="health3">פרט מגבלויות רפואיות</label>
+        <br /><br />
+        <input
+          type="text"
+          id="health3"
+          name="health3"
+          style="width: 500px; height: 100px"
+        />
+        <br /><br />
+        <li>
+          <input type="checkbox" id="ok" name="ok" />
+          <label for="ok">קראתי את התקנון ואני מאשר/ת את האמור בו</label>
+        </li>
+        <br />
+        <input type="submit" value="שליחת פרטים" />
+      </form>
+    </ol>
+  </body>
+</html>

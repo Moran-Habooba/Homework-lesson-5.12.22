@@ -1,0 +1,41 @@
+tr {
+  height: 25px;
+}
+legend {
+  text-align: right;
+  font-size: 20px;
+  color: navy;
+  font-weight: bold;
+}
+ol {
+  text-align: right;
+  direction: rtl;
+}
+p {
+  text-align: right;
+}
+body {
+  background-color: aqua;
+  direction: rtl;
+}
+img {
+  width: 110px;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+label {
+  font-size: 20px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+}
+select {
+  width: 100px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}

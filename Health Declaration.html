@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head style="direction: rtl">
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+    <title>Health Declaration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="direction: rtl">
+    <a href="index.html">דף הבית</a>
+    <h3 style="text-align: center">מדינת ישראל</h3>
+    <div align="center">
+      <img
+        src="https://yesodot.org.il/wp-content/uploads/2021/04/121615079_3058177410954803_2745784668236823866_n.png"
+        width="35px"
+      />
+    </div>
+    <h2 style="text-align: center">הצהרת בריאות</h2>
+    <p>
+      לתשומת לבך: • יש להחתים טופס זה רופא המשפחה או רופא אחר שעיין בתיקו הרפואי
+      של המצהיר. • את הצהרת הבריאות לאחר חתימת הרופא יש לצרף למסמכי הבקשה לקבלת
+      רישיון לכלי ירייה. יש לשמור עותק מההצהרה החתומה, ולמסור אותה למנהל המטווח
+      לפני ביצוע ההכשרה במטווח. ההצהרה בצירוף האישור על מעבר ההכשרה, יועברו לאחר
+      ההכשרה, על ידי מנהל המטווח, לפקיד הרישוי באגף לרישוי כלי ירייה. •
+      לחילופין, באפשרותך למסור את ההצהרה לאחר חתימת הרופא ישירות לפקיד הרישוי
+      לפני ביצוע המשך תהליך ההכשרה במטווח. במקרה כזה, פקיד הרישוי יבדוק את
+      ההצהרה וייתן בידך אישור להמשך הליך הרישוי. • לפי החלטת ועדת האתיקה של
+      ההסתדרות הרפואית מיום 2017.2.7 ,במסגרת בקשה לקבלת רישיון לכלי ירייה או
+      חידושו, רופא אינו רשאי לחתום על הצהרת בריאות עבור עצמו או עבור בני משפחתו
+      מדרגה ראשונה. בהתאם לכך, האגף לרישוי כלי ירייה לא יקבל הצהרות בריאות שלא
+      נחתמו כנדרש והבקשה לא תטופל.
+    </p>
+    <form method="post" action="https://formspree.io/f/mgeqggng">
+      <fieldset>
+        <label for="surname">שם משפחה</label>
+        <input type="text" id="surname" name="surname" />
+        <label for="name">שם פרטי</label>
+        <input type="text" id="name" name="name" />
+        <label for="id">מספר זהות</label>
+        <input type="number" id="id" name="id" />
+        <label for="year-of-birth">שנת לידה</label>
+        <input type="date" id="year-of-birth" name="year-of-birth" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <label for="job">עיסוק</label>
+        <input type="text" id="job" name="job" />
+        <label for="Address">כתובת-רחוב</label>
+        <input type="text" id="Address" name="Address" />
+        <label for="home">בית</label>
+        <input type="text" id="home" name="home" />
+        <label for="apartment">דירה</label>
+        <input type="text" id="apartment" name="apartment" />
+        <label for="mailbox">תא דואר</label>
+        <input type="text" id="mailbox" name="mailbox" />
+        <label for="city">יישוב</label>
+        <input type="text" id="city" name="city" />
+        <br />
+        <br />
+        <label for="phone">טלפון</label>
+        <input type="number" id="phone" name="phone" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <table style="direction: rtl; font-size: 20px">
+          <thead>
+            <tr style="height: 15px">
+              <th colspan="3">הצהרת מבקש הבדיקה</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="height: 15px">
+              <td>
+                <label for="1"
+                  >1.האם עברת אירוע של איבוד הכרה ב-5 שנים האחרונות? אם כן
+                  ,מתיי?</label
+                >
+              </td>
+              <td>
+                <input type="radio" id="yes" name="yes-or-no" />
+                <label for="yes">כן</label>
+                <input type="radio" id="no" name="yes-or-no" />
+                <label for="no">לא</label>
+              </td>
+            </tr>
+            <tr style="height: 15px">
+              <td>
+                <label for="2"
+                  >2. האם הינך סובל מסחרחורות וחוסר שיווי משקל?</label
+                >
+              </td>
+              <td>
+                <input type="radio" id="yes1" name="yes-or-no1" />
+                <label for="yes1">כן</label>
+                <input type="radio" id="no1" name="yes-or-no1" />
+                <label for="no1">לא</label>
+              </td>
+            </tr>
+            <tr style="height: 15px">
+              <td>
+                <label for="2">3.האם אתה סובל מאפילפסיה? </label>
+              </td>
+              <td>
+                <input type="radio" id="yes2" name="yes-or-no2" />
+                <label for="yes2">כן</label>
+                <input type="radio" id="no2" name="yes-or-no2" />
+                <label for="no2">לא</label>
+              </td>
+            </tr>
+            <tr style="height: 15px">
+              <td>
+                <label for="2">4.האם אתה מקבל בקביעות תרופות? אם כן פרט:</label>
+              </td>
+              <td>
+                <input type="radio" id="yes3" name="yes-or-no3" />
+                <label for="yes3">כן</label>
+                <input type="radio" id="no3" name="yes-or-no3" />
+                <label for="no3">לא</label>
+              </td>
+            </tr>
+            <tr style="height: 15px">
+              <td>
+                <label for="2">5.האם עברת אי פעם ארוע מוחי ?</label>
+              </td>
+              <td>
+                <input type="radio" id="yes4" name="yes-or-no4" />
+                <label for="yes4">כן</label>
+                <input type="radio" id="no4" name="yes-or-no4" />
+                <label for="no4">לא</label>
+              </td>
+            </tr>
+            <tr style="height: 15px">
+              <td>
+                <label for="2">6.האם הינך סובל ממחלת לב?</label>
+              </td>
+              <td>
+                <input type="radio" id="yes5" name="yes-or-no4" />
+                <label for="yes5">כן</label>
+                <input type="radio" id="no5" name="yes-or-no5" />
+                <label for="no5">לא</label>
+              </td>
+            </tr>
+            <br /><br />
+            <tr>
+              <td colspan="2">
+                <p>
+                  אני החתום מטה מצהיר שכל תשובותיי בטופס זה, תואמות את האמת
+                  וידוע לי כי אהיה צפוי לעונשים הקבועים בחוק, על כל רישום כוזב
+                  שערכתי בטופס זה. אני מצהיר ומתחייב למסור לרופא המוסמך מטעם
+                  הרשות, ידיעות מלאות ונכונות על מחלותיי וליקויי הבריאותיים. אני
+                  מוותר על הסודיות בנוגע למחלותיי, לגבי המוסדות הרפואיים הבודקים
+                  אותי והנני מבקש בזאת מכל מוסד רפואי למסור כל מידע בקשר
+                  למחלותיי מצבי הרפואי וכל מידע אחר שיידרש לרופא מוסמך או לבא
+                  כוחו. הריני מתחייב להודיע בכתב לאגף לרישוי כלי ירייה על כל
+                  שינוי שיחול בפרטים אותם מסרתי לעיל תוך 7 ימים ממועד השינוי
+                  ולהגיש הצהרת בריאות עדכנית.
+                </p>
+                <label for="files">מסמכים רפואיים</label>
+                <input type="file" id="files" name="files" />
+                <label for="date">תאריך</label>
+                <input type="date" id="date" name="date" />
+              </td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <br /><br />
+        <label for="send">לשליחה לחץ כאן :</label>
+        <input type="submit" id="send" name="send" value="שליחת טופס" />
+        <br />
+        <br />
+        <input type="reset" value="איפוס" />
+      </fieldset>
+    </form>
+  </body>
+</html>
